@@ -30,8 +30,12 @@ export const BlogCard = styled.div`
     border: 1px solid black;
     text-align: center;
     width: 400px;
+    transition: all 0.3s;
     @media ${(props) => props.theme.breakpoints.sm} {
         width: 100%;
+    }
+    &:hover {
+        box-shadow: 15px 15px 9px -3px rgba(0, 0, 0, 0.3);
     }
 `;
 export const TitleContent = styled.div`

@@ -15,6 +15,7 @@ export const Container = styled.div`
         grid-template-rows: repeat(2, 60px);
         grid-column-gap: 0.5rem;
         grid-row-gap: 0.5rem;
+        padding-left: 3rem;
     }
 `;
 export const Div1 = styled.div`
@@ -50,8 +51,16 @@ export const Div3 = styled.div`
 `;
 
 export const Span = styled.span`
+    font-weight: bold;
     font-size: 2.5rem;
     margin-left: 0.5rem;
+    text-transform: uppercase;
+    background: linear-gradient(270deg, #00dbd8 0%, #b133ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0b2349;
+    display: table;
+    margin: 20px auto;
 `;
 
 // Navigation Links

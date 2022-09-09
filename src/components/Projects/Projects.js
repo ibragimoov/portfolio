@@ -52,7 +52,7 @@ const Projects = () => (
                                         style={{ marginRight: "10px" }}
                                         size={"2.5rem"}
                                     />
-                                    Source Code
+                                    Code
                                 </div>
                             </ExternalLinks>
                             <ExternalLinks href={visit}>

@@ -24,7 +24,12 @@ const Header = () => (
                         color: "white",
                     }}
                 >
-                    <AiFillStar size={"3rem"} />
+                    {/* <AiFillInstagram
+                        style={{
+                            marginLeft: "10px",
+                        }}
+                        size={"2.5rem"}
+                    /> */}
                     <Span>IBRAGIMOOV</Span>
                 </a>
             </Link>
@@ -40,11 +45,11 @@ const Header = () => (
                     <NavLink>Technologies</NavLink>
                 </Link>
             </li>
-            {/* <li>
+            <li>
                 <Link href={"#about"}>
                     <NavLink>About</NavLink>
                 </Link>
-            </li> */}
+            </li>
         </Div2>
         <Div3>
             <SocialIcons href="https://github.com/ibragimoov">
