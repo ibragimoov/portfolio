@@ -19,7 +19,7 @@ const Hero = (props) => (
                 every day I study something new in the field of it
             </SectionText>
             <a href="https://vk.com/eldar__ibragimov" target="_blank">
-                <Button>Learn more</Button>
+                <Button>Get more</Button>
             </a>
         </LeftSection>
     </Section>
