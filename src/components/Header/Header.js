@@ -52,7 +52,7 @@ const Header = () => (
             </li>
         </Div2>
         <Div3>
-            <SocialIcons href="https://github.com/ibragimoov">
+            <SocialIcons target={"_blank"} href="https://github.com/ibragimoov">
                 <AiFillGithub size={"4rem"} />
             </SocialIcons>
         </Div3>

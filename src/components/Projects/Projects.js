@@ -41,7 +41,7 @@ const Projects = () => (
                                 : description}
                         </CardInfo>
                         <UtilityList>
-                            <ExternalLinks github href={source}>
+                            <ExternalLinks target="_blank" github href={source}>
                                 <div
                                     style={{
                                         display: "flex",
@@ -55,7 +55,7 @@ const Projects = () => (
                                     Code
                                 </div>
                             </ExternalLinks>
-                            <ExternalLinks href={visit}>
+                            <ExternalLinks target="_blank" href={visit}>
                                 <div
                                     style={{
                                         display: "flex",

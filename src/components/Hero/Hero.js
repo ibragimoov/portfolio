@@ -18,13 +18,9 @@ const Hero = (props) => (
             <SectionText>
                 every day I study something new in the field of it
             </SectionText>
-            <Button
-                onClick={() =>
-                    (window.location = "https://vk.com/eldar__ibragimov")
-                }
-            >
-                Learn more
-            </Button>
+            <a href="https://vk.com/eldar__ibragimov" target="_blank">
+                <Button>Learn more</Button>
+            </a>
         </LeftSection>
     </Section>
 );

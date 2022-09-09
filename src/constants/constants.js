@@ -20,7 +20,7 @@ export const projects = [
         id: 1,
     },
     {
-        title: "WebRTC App",
+        title: "Estate app",
         description:
             "Realtor with rental homes and for-sale properties, advanced property filtering, property details page with an image carousel",
         image: "/images/3.png",
@@ -30,7 +30,7 @@ export const projects = [
         id: 2,
     },
     {
-        title: "Unichat",
+        title: "Quizzical",
         description:
             "A fun quiz application that displays questions on various topics (from the API)",
         image: "/images/4.png",
