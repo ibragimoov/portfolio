@@ -75,6 +75,7 @@ export const NavLink = styled.a`
         cursor: pointer;
     }
     @media ${(props) => props.theme.breakpoints.sm} {
+        font-size: 1.5rem;
         padding: 1rem;
     }
 `;
