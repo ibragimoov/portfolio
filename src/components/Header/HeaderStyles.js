@@ -55,10 +55,10 @@ export const Span = styled.span`
     font-size: 2rem;
     margin-left: 0.5rem;
     text-transform: uppercase;
-    background: linear-gradient(270deg, #00dbd8 0%, #b133ff 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: #0b2349;
+    // background: linear-gradient(270deg, #00dbd8 0%, #b133ff 100%);
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+    color: white;
     display: table;
     margin: 20px auto;
 `;
