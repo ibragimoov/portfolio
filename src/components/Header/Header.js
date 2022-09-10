@@ -24,12 +24,6 @@ const Header = () => (
                         color: "white",
                     }}
                 >
-                    {/* <AiFillInstagram
-                        style={{
-                            marginLeft: "10px",
-                        }}
-                        size={"2.5rem"}
-                    /> */}
                     <Span>IBRAGIMOOV</Span>
                 </a>
             </Link>
