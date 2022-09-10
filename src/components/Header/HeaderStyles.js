@@ -15,7 +15,6 @@ export const Container = styled.div`
         grid-template-rows: repeat(2, 60px);
         grid-column-gap: 0.5rem;
         grid-row-gap: 0.5rem;
-        padding-left: 3rem;
     }
 `;
 export const Div1 = styled.div`
@@ -58,6 +57,7 @@ export const Span = styled.span`
     // background: linear-gradient(270deg, #00dbd8 0%, #b133ff 100%);
     // -webkit-background-clip: text;
     // -webkit-text-fill-color: transparent;
+    padding-left: 2rem;
     color: white;
     display: table;
     margin: 20px auto;
